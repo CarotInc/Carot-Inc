@@ -1,0 +1,29 @@
+/* margin*/
+
+.u-mt-100 {
+  margin-top: 100px;
+}
+
+.u-mt-40 {
+  margin-top: 40px;
+}
+
+.u-mt-50 {
+  margin-top: 50px;
+}
+
+/* padding */
+.u-pt-20 {
+  padding-top: 20px;
+}
+.u-pt-40 {
+  padding-top: 40px;
+}
+
+.u-pt-100 {
+  padding-top: 100px;
+}
+
+.u-mb-20 {
+  margin-bottom: 20px;
+}
