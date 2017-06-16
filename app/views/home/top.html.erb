@@ -12,15 +12,27 @@
   <body>
     <header>
       <div class="header">
-        <div class = "header-logo">Carot</div>
+        <div class = "header-logo" id="toggle">Carot</div>
+        <nav id="menu-box">
+          <ul id="menu" class="">
+             <li><a href="#">Vision</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Member</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+      
     </header>
     <div>
       <img src="carot.png" class="carot">
     </div>
     <div class="corp-name">
-      <p class="image"><img src = "corpname.jpg"></p>
+      <p class="image"><img src = "carot_web.png"></p>
     </div>
+    <img src="maru1.png" class="maru" id="vision">
     <div>
       <div class="vision">
         <p class="visionlogo">Vision</p>
@@ -30,8 +42,9 @@
          <img src="moyou2.png" class="moyou">
         </div>
       </div>
+      <img src="maru1.png" class="maru">
       <div class="mission">
-        <p class="missionlogo">Mission</p>
+      <p class="missionlogo">Mission</p>
         <p class="topic1">”魂を揺さぶる動画を配信する”</p>
         <p class="topic2">テクノロジーの発展により、人々が多くの情報を消費する時代になりました。ですが現在はデバイスの中に、「情報」どけがあふれかえり、人々が感動できるような「体験」はほとんどありません。そこで我々は動画や360度コンテンツを用いて、「情報」ではなく「体験」を人々に届けます。Carotは人々の魂を揺さぶる「体験」を発信します。</p>
       </div>
@@ -99,21 +112,21 @@
     <div class="form">
       <p class="topic1" id = "form">Contact</p>
       <div class="make_border2"></div>
-      <form action="carot_submit" method="get" accept-charset="utf-8" class="formtext">
-
-    <div class="form-mail">
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
+      <form action="/my-handling-form-page" method="post" id="carot-form">
+    <div class="input">
+        <input type="text" id="name" name="user_name" placeholder ="お名前" style="border:none;" />
     </div>
-    <div class="form-message">
-        <label for="msg">Message:</label>
-        <textarea id="msg"></textarea>
+    <div class="input">
+        <input type="email" id="mail" name="user_email" placeholder = "メールアドレス" style="border:none;"/>
+    </div>
+    <div class="input" id="inputend">
+        <textarea id="msg" name="user_message" placeholder = "メッセージ" style="border:none;"></textarea>
     </div>
     
     <div class="button">
-        <button type="submit">Send your message</button>
+        <button type="submit" id="button">送信</button>
     </div>
-      </form>
+</form>
     </div>
 
 
