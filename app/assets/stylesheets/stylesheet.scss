@@ -341,7 +341,7 @@ div.border {
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    .header-right{
+  .header-right{
   float:right;
 }
 .header-child{
@@ -379,6 +379,17 @@ p.image img{
   text-align: center;
   padding-top: 60px;
 }
+
+.topic2 {
+  display: inline-block;
+  font-size: 3px;
+  letter-spacing: 0.5;
+  line-height: 35px;
+  width: 85%;
+  text-align: center;
+  color: rgb(95,95,95);
+}
+
 .mission{
   text-align: center;
   padding-bottom: 80px;
