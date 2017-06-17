@@ -14,7 +14,7 @@ server '52.68.32.176', user: 'hayato',
 roles: %w{web app db}  #何サーバーの処理を書くか。今回は同じサーバーで全部動かすのでweb app db全て指定
 #sshでEC２に入るのに必要
 set :ssh_options, {
-   keys: [File.expand_path('~/.ssh/Lucy_key_rsa.pem')]
+   keys: [File.expand_path('~/.ssh/Lucy_key_rsa')]
 }
 # Extended Server Syntax
 # ======================
