@@ -19,26 +19,29 @@ a {
 
 body {
   -webkit-font-smoothing: antialiased;
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
 }
 
 /*-------  ここまで共通のCSS  --------*/
-  .header-right{
+.header-right{
   float:right;
 }
-.header-child{
+
+.header-child {
   float:left;
-  margin-top:5px;
-  margin-left:650px;
+  margin-top: 5px;
+  margin-left: 650px;
   margin-right:46px;
 }
-.header-logo{
+
+.header-logo {
   font-size:20px;
   padding:10px;
   margin-left:40px;
   color:#585858;
   float:left;
 }
-.carot{
+.carot {
   float:left;
   margin-top: 28%;
   width: 7%;
@@ -55,7 +58,7 @@ body {
 }
 p.image img{
   width: 100%;
-  margin-top: 50px;
+  // margin-top: 50px;
 }
 .vision{
   text-align: center;
@@ -85,17 +88,17 @@ p.image img{
   margin-left: 15%;
 }
 
-.topic1{
-  margin-top:15px;
-  font-size:20px;
+.topic1 {
+  margin-top: 15px;
+  font-size: 25px;
   color: rgb(95,95,95);
 }
-.topic2{
+.topic2 {
   display: inline-block;
-  padding-top:15px;
-  font-size: 10px;
+  padding-top: 15px;
+  font-size: 16px;
   letter-spacing: 0.5;
-  line-height: 25px;
+  line-height: 30px;
   width: 85%;
   text-align: center;
   color: rgb(95,95,95);
@@ -110,6 +113,7 @@ p.image img{
 
 .product{
   background-color: #5FD0C8;
+  text-align: center;
 }
 .producttext{
   color: white;
@@ -117,7 +121,7 @@ p.image img{
   padding-left: 15%;
   font-weight: bold;
   font-family: Avenir;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 40px;
 }
 
@@ -129,7 +133,7 @@ p.image img{
   text-align: center;
   font-weight: bold;
   font-family: Avenir;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 40px;
 }
 .make_border{
@@ -153,7 +157,7 @@ p.image img{
   color: white;
   font-weight: bold;
   font-family: Avenir;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 40px;
 }
 
@@ -263,7 +267,6 @@ div.border{
 .membername{
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 40px;
 }
 .faceImge{
 
@@ -300,6 +303,7 @@ div.border{
 #footer{
   margin-bottom: 40px;
 }
+
 .maru{
   width: 15%;
   height: width;
@@ -338,6 +342,11 @@ div.border{
   color: rgb(95,95,95);
 }
 
+.faceImage {
+  width: 200px;
+  height: 200px;
+}
+
 @media screen and (max-width: 768px){
   .self{
   display: none;
@@ -346,9 +355,9 @@ div.border{
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    .header-right{
+  .header-right{
   float:right;
-}
+  }
 .header-child{
   float:left;
   margin-top:5px;
@@ -377,7 +386,6 @@ div.border{
 }
 p.image img{
   width: 100%;
-  margin-top: 50px;
 }
 .vision{
   text-align: center;
@@ -420,6 +428,7 @@ p.image img{
   text-align: center;
   color: rgb(95,95,95);
 }
+
 .header{
   background-color:white;
   position:fixed;
@@ -473,10 +482,18 @@ p.image img{
   color: white;
   font-weight: bold;
   font-family: Avenir;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 40px;
 }
 
+.maru {
+  width: 5%;
+  height: width;
+  z-index : 1;
+  position: absolute;
+  left: 4%;
+  z-index: -1;
+}
 .about{
   text-align: center;
 }
@@ -517,18 +534,18 @@ p.image img{
 
 div.moyouleft{
   margin-top: 15px;
-  width: 50%;
+  width: 30%;
   margin-left: auto;
 }
 
 div.moyouright{
   margin-top: 40px;
-  width: 50%;
+  width: 30%;
   margin-right: auto;
 }
 
 .moyou{
-  width: 100%;
+  width: 30%;
 }
 
 div.border{
@@ -629,7 +646,6 @@ div.border{
 }
 p.image img{
   width: 100%;
-  margin-top: 50px;
 }
 .vision{
   text-align: center;
@@ -659,7 +675,7 @@ p.image img{
 
 .topic1{
   margin-top:15px;
-  font-size:20px;
+  font-size:40px;
   color: rgb(95,95,95);
 }
 .topic2{
@@ -668,7 +684,7 @@ p.image img{
   font-size: 20px;
   letter-spacing: 2.5;
   line-height: 40px;
-  width: 85%;
+  width: 60%;
   text-align: center;
   color: rgb(95,95,95);
 }
@@ -721,6 +737,7 @@ p.image img{
   background-color: #5FD0C8;
   text-align: center;
 }
+
 #form {
   color: white;
   font-weight: bold;
@@ -780,7 +797,7 @@ div.moyouright{
 }
 
 .moyou{
-  width: 100%;
+  width: 60%;
 }
 
 div.border{
@@ -850,10 +867,14 @@ div.border{
 }
 .lapantext{
   float: left;
-  width: 60%;
+  width: 40%;
   color: white;
   margin-bottom: 40px;
   font-size: 20px;
+}
+
+#carot-form {
+  width: 40%;
 }
 .self{
   margin-left: 500px;
