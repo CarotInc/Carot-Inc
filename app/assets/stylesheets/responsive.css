@@ -1,49 +1,57 @@
-@media screen and (max-width: 400px){
-  .self{
+@media screen and (max-width: 400px) {
+  .self {
   display: none;
-}
-.carot{
-  display: none;
-}
-#yu {
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-}
-.topic1{
-  font-size: 20px;
-}
-.topic2{
-  font-size: 15px;
-}
-.lapantext {
-  font-size: 15px;
-}
-.abouttext{
-  font-size: 15px;
-}
-.contacttext{
-  font-size: 10px;
-}
-.logo{
-  text-align: right;
-  height: 30px;
-}
+  }
+  .carot {
+    display: none;
+  }
+
+  #yu {
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+  }
+
+  .topic1 {
+    font-size: 20px;
+  }
+
+  .topic2 {
+    font-size: 15px;
+  }
+
+  .lapantext {
+    font-size: 15px;
+  }
+
+  .abouttext {
+    font-size: 15px;
+  }
+
+  .contacttext {
+    font-size: 10px;
+  }
+
+  .logo {
+    text-align: right;
+    height: 30px;
+  }
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 400px){
-  .self{
+@media screen and (max-width: 768px) and (min-width: 400px) {
+  .self {
   display: none;
-}
-.carot{
-  display: none;
-}
-#yu{
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-}
+  }
+  .carot {
+    display: none;
+  }
+  /*これデフォルトで設定してるからいらない？*/
+  #yu{
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+  }
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  /* .header-right{
   float:right;
   }
@@ -297,388 +305,401 @@ div.moyouright{
   color: white;
   margin-bottom: 40px;
 }*/
-body {
-  -webkit-font-smoothing: antialiased;
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-  color: #5F5F5F;
-}
+/*必要ない*/
+  /*body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+    color: #5F5F5F;
+  }*/
 
-.name{
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-  font-size: 20px;
-  color: rgb(95,95,95);
-}
-
-.missionlogo{
-  color: #00A99D;
-  font-family: Avenir;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 15%;
-}
-.visionlogo{
-  color: #00A99D;
-  font-family: Avenir;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 15%;
-}
-.lapantext{
-  float: left;
-  width: 40%;
-  color: white;
-  margin-bottom: 40px;
-  font-size: 20px;
-  margin-top: 60px;
-}
-
-.abouttext{
-  color: rgb(95,95,95);
-  text-align: left;
-  margin-left: 15%;
-  line-height: 35px;
-  font-size: 20px;
-  margin-bottom: 40px
+  .name {
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+    font-size: 20px;
+    color: rgb(95,95,95);
   }
 
-.contacttext {
-  font-size: 20px;
-}
-
-.maru{
-  width: 8%;
-  height: width;
-  z-index : 1;
-  position: absolute;
-  left: 10%;
-  z-index: -1;
-}
-.self{
-  display: none;
-}
-.topic1{
-  margin-top:15px;
-  font-size:40px;
-  color: rgb(95,95,95);
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-}
-
-#about{
-  color: #00A99D;
-  text-align: left;
-  margin-left: 15%;
-  font-weight: bold;
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-  font-size: 30px;
-  padding-top: 40px;
-}
-#yu{
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-}
-}
-@media screen and (min-width: 1024px){
-body {
-  -webkit-font-smoothing: antialiased;
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-  color: #5F5F5F;
-}
-
- .header-right{
-  float:right;
-}
-.header-child{
-  float:left;
-  margin-top:5px;
-  margin-left:650px;
-  margin-right:46px;
-}
-.header-logo{
-  font-size:20px;
-  padding:10px;
-  margin-left:40px;
-  color:#585858;
-  float:left;
-}
-.carot{
-  float:left;
-  margin-top: 200px;
-  margin-left: 8%;
-  position: fixed;
-  display: none;
-}
-.logo{
-  float: left;
-}
-
-.corp-name{
-  width: 100%;
-}
-p.image img{
-  width: 100%;
-}
-.vision{
-  text-align: center;
-  padding-top: 60px;
-}
-.mission{
-  text-align: center;
-  padding-bottom: 80px;
-  margin-top: 40px;
-}
-.missionlogo{
-  color: #00A99D;
-  font-family: Avenir;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 15%;
-}
-.visionlogo{
-  color: #00A99D;
-  font-family: Avenir;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 15%;
-}
-
-.topic1{
-  margin-top:15px;
-  font-size:40px;
-  color: rgb(95,95,95);
-}
-.topic2{
-  display: inline-block;
-  padding-top:15px;
-  font-size: 20px;
-  letter-spacing: 2.5;
-  line-height: 40px;
-  width: 60%;
-  text-align: center;
-  color: rgb(95,95,95);
-}
-.header{
-  background-color:white;
-  position:fixed;
-  width: 100%;
-  background: rgba(255,255,255,0.3);
-  color: #3f3f3f;
-}
-
-.product{
-  background-color: #5FD0C8;
-  padding-bottom: 100px;
-}
-.producttext{
-  color: white;
-  text-align: left;
-  padding-left: 15%;
-  font-weight: bold;
-  font-family: Avenir;
-  font-size: 40px;
-  padding-top: 40px;
-}
-
-.member{
-  background-color:white;
-}
-.membertext{
-  color: #00A99D;
-  text-align: center;
-  font-weight: bold;
-  font-family: Avenir;
-  font-size: 40px;
-  padding-top: 40px;
-}
-.make_border{
-  width:60px;
-  height:2px;
-  background:#FF7F49;
-  margin:auto;
-}
-.make_border2{
-  width:60px;
-  height:2px;
-  background:#FFC843;
-  margin:auto;
-}
-
-.form{
-  background-color: #5FD0C8;
-  text-align: center;
-}
-
-#form {
-  color: white;
-  font-weight: bold;
-  font-family: Avenir;
-  font-size: 40px;
-  padding-top: 40px;
-  margin-top: 100px;
-}
-
-.about{
-  text-align: center;
-}
-
-#about{
-  color: #00A99D;
-  text-align: left;
-  margin-left: 15%;
-  font-weight: bold;
-  font-size: 30px;
-  padding-top: 40px;
-}
-.abouttext{
-  color: rgb(95,95,95);
-  text-align: left;
-  margin-left: 15%;
-  line-height: 35px;
-  font-size: 20px;
-  margin-bottom: 40px
+  .missionlogo {
+    color: #00A99D;
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+  }
+  .visionlogo{
+    color: #00A99D;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+  }
+  .lapantext {
+    float: left;
+    width: 40%;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 60px;
   }
 
+  .abouttext {
+    color: rgb(95,95,95);
+    text-align: left;
+    margin-left: 15%;
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 40px
+    }
+
+  .contacttext {
+    font-size: 20px;
+  }
+
+  .maru {
+    width: 8%;
+    height: width;
+    z-index : 1;
+    position: absolute;
+    left: 10%;
+    z-index: -1;
+  }
+
+  .self {
+    display: none;
+  }
+
+  .topic1 {
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(95,95,95);
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+  }
+
+  #about {
+    color: #00A99D;
+    text-align: left;
+    margin-left: 15%;
+    font-weight: bold;
+    /*font-family: "游ゴシック体", "YuGothic", sans-serif;*/
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  /*必要ない*/
+  /*#yu{
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+  }*/
+}
+@media screen and (min-width: 1024px) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+    color: #5F5F5F;
+  }
+
+   .header-right{
+    float:right;
+  }
+  .header-child{
+    float:left;
+    margin-top:5px;
+    margin-left:650px;
+    margin-right:46px;
+  }
+  .header-logo{
+    font-size:20px;
+    padding:10px;
+    margin-left:40px;
+    color:#585858;
+    float:left;
+  }
+  .carot{
+    float:left;
+    margin-top: 200px;
+    margin-left: 8%;
+    position: fixed;
+    display: none;
+  }
+  .logo{
+    float: left;
+  }
+
+  .corp-name{
+    width: 100%;
+  }
+  p.image img{
+    width: 100%;
+  }
+  .vision{
+    text-align: center;
+    padding-top: 60px;
+  }
+  .mission{
+    text-align: center;
+    padding-bottom: 80px;
+    margin-top: 40px;
+  }
+  .missionlogo{
+    color: #00A99D;
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+  }
+  .visionlogo{
+    color: #00A99D;
+    font-family: Avenir;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+  }
+
+  .topic1{
+    margin-top:15px;
+    font-size:40px;
+    color: rgb(95,95,95);
+  }
+  .topic2{
+    display: inline-block;
+    padding-top:15px;
+    font-size: 20px;
+    letter-spacing: 2.5;
+    line-height: 40px;
+    width: 60%;
+    text-align: center;
+    color: rgb(95,95,95);
+  }
+  .header{
+    background-color:white;
+    position:fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    color: #3f3f3f;
+  }
+
+  .product{
+    background-color: #5FD0C8;
+    padding-bottom: 100px;
+  }
+  .producttext{
+    color: white;
+    text-align: left;
+    padding-left: 15%;
+    font-weight: bold;
+    font-family: Avenir;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+  .member{
+    background-color:white;
+  }
+  .membertext{
+    color: #00A99D;
+    text-align: center;
+    font-weight: bold;
+    font-family: Avenir;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .make_border{
+    width:60px;
+    height:2px;
+    background:#FF7F49;
+    margin:auto;
+  }
+  .make_border2{
+    width:60px;
+    height:2px;
+    background:#FFC843;
+    margin:auto;
+  }
+
+  .form{
+    background-color: #5FD0C8;
+    text-align: center;
+  }
+
+  #form {
+    color: white;
+    font-weight: bold;
+    font-family: Avenir;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-top: 100px;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  #about{
+    color: #00A99D;
+    text-align: left;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  .abouttext{
+    color: rgb(95,95,95);
+    text-align: left;
+    margin-left: 15%;
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 40px
+    }
 
 
-.formtext{
-  padding-top: 30px;
-  background-color: white;
-  width: 80%;
-  display: inline-block;
 
-}
-.form-mail{
-  padding-bottom: 30px;
-}
-.form-message{
-  padding-bottom: 30px;
-}
+  .formtext{
+    padding-top: 30px;
+    background-color: white;
+    width: 80%;
+    display: inline-block;
 
-div.moyouleft{
-  margin-top: 15px;
-  width: 100%;
-  margin-left: auto;
-  text-align: left;
-}
+  }
+  .form-mail{
+    padding-bottom: 30px;
+  }
+  .form-message{
+    padding-bottom: 30px;
+  }
 
-div.moyouright{
-  margin-top: 40px;
-  width: 100%;
-  text-align: right;
-}
+  div.moyouleft{
+    margin-top: 15px;
+    width: 100%;
+    margin-left: auto;
+    text-align: left;
+  }
 
-.moyou{
-  width: 25%;
-}
+  div.moyouright{
+    margin-top: 40px;
+    width: 100%;
+    text-align: right;
+  }
 
-div.border{
-  margin-left: 200px;
-  margin-bottom: 80px;
-}
-.border2 {
-  margin-left: 200px;
-}
-.membername{
-  width: 80%;
-  margin-top: 90px;
-  margin-bottom: 40px;
-}
-.faceImage{
-  float: left;
-  width: 230px;
-  height: 230px;
-  margin-left: 250px;
-}
-.role{
-  color: #FF7F49;
-  text-align: left;
-  margin-left: 500px;
-}
-.name{
-  font-size: 20px;
-  color: rgb(95,95,95);
-  text-align: left;
-  margin-left: 500px;
-  font-family: "游ゴシック体", "YuGothic", sans-serif;
-}
-.englishname{
-  font-family: Avenir;
-  font-weight: bold;
-  color: rgb(95,95,95);
-  text-align: left;
-  margin-left: 500px;
-}
+  .moyou {
+    width: 25%;
+  }
 
-#product{
-  margin-bottom: 40px;
-}
+  div.border {
+    margin-left: 200px;
+    margin-bottom: 80px;
+  }
 
-/*.carotlogo{
-  width: 30%;
-  margin-right: 10%;
-}*/
+  .border2 {
+    margin-left: 200px;
+  }
 
-.footer{
-  text-align: right;
-  margin-top: 40px;
-  width: 100%;
-}
+  .membername {
+    width: 80%;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
 
-#footer{
-  margin-bottom: 40px;
-}
+  .faceImage {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin-left: 250px;
+  }
 
-#menu{
-  float: right;
-  padding-right: 20px;
-}
-.lapan{
-  width: 170px;
-  margin-left: 20%;
-  float: left;
-  margin-right: 40px;
-}
-.lapantext{
-  float: left;
-  width: 40%;
-  color: white;
-  margin-bottom: 40px;
-  font-size: 20px;
-  margin-top: 100px;
-}
+  .role {
+    color: #FF7F49;
+    text-align: left;
+    margin-left: 500px;
+  }
 
-#carot-form {
-  width: 40%;
-}
-.self{
-  margin-left: 500px;
-  margin-top: 20px;
-  text-align: left;
-}
-.maru{
-  width: 7%;
-  height: width;
-  z-index : 1;
-  position: absolute;
-  left: 4%;
-  z-index: -1;
-}
+  .name {
+    font-size: 20px;
+    color: rgb(95,95,95);
+    text-align: left;
+    margin-left: 500px;
+    font-family: "游ゴシック体", "YuGothic", sans-serif;
+  }
 
-.contacttext {
-  font-size: 20px;
-}
+  .englishname {
+    font-family: Avenir;
+    font-weight: bold;
+    color: rgb(95,95,95);
+    text-align: left;
+    margin-left: 500px;
+  }
 
-#vision {
-  margin-left: 100px;
-}
+  #product {
+    margin-bottom: 40px;
+  }
 
-#mission {
-  margin-left: 100px;
-}
+  /*.carotlogo{
+    width: 30%;
+    margin-right: 10%;
+  }*/
 
-.moyou2 {
-  top: 0px;
-}
+  .footer {
+    text-align: right;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  #footer {
+    margin-bottom: 40px;
+  }
+
+  #menu {
+    float: right;
+    padding-right: 20px;
+  }
+
+  .lapan {
+    width: 170px;
+    margin-left: 20%;
+    float: left;
+    margin-right: 40px;
+  }
+
+  .lapantext{
+    float: left;
+    width: 40%;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  #carot-form {
+    width: 40%;
+  }
+
+  .self {
+    margin-left: 500px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .maru{
+    width: 7%;
+    height: width;
+    z-index : 1;
+    position: absolute;
+    left: 4%;
+    z-index: -1;
+  }
+
+  .contacttext {
+    font-size: 20px;
+  }
+
+  #vision {
+    margin-left: 100px;
+  }
+
+  #mission {
+    margin-left: 100px;
+  }
+
+  .moyou2 {
+    top: 0px;
+  }
 }
