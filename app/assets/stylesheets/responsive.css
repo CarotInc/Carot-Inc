@@ -1,15 +1,50 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 400px){
   .self{
   display: none;
 }
 .carot{
   display: none;
 }
+#yu{
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+}
+.topic1{
+  font-size: 20px;
+}
+.topic2{
+  font-size: 15px;
+}
+.lapantext{
+  font-size: 15px;
+}
+.abouttext{
+  font-size: 15px;
+}
+.contacttext{
+  font-size: 10px;
+}
+.logo{
+  text-align: right;
+  height: 30px;
+}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 400px){
+  .self{
+  display: none;
+}
+.carot{
+  display: none;
+}
+#yu{
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+}
 }
 
 
-/*@media screen and (min-width: 769px) and (max-width: 1024px){
-  .header-right{
+@media screen and (min-width: 769px) and (max-width: 1024px){
+ /* .header-right{
   float:right;
   }
 .header-child{
@@ -261,12 +296,95 @@ div.moyouright{
   width: 40%;
   color: white;
   margin-bottom: 40px;
+}*/
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+  color: #5F5F5F;
+}
+
+.name{
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+  font-size: 20px;
+  color: rgb(95,95,95);
+}
+
+.missionlogo{
+  color: #00A99D;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 15%;
+}
+.visionlogo{
+  color: #00A99D;
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 15%;
+}
+.lapantext{
+  float: left;
+  width: 40%;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.abouttext{
+  color: rgb(95,95,95);
+  text-align: left;
+  margin-left: 15%;
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 40px
+  }
+
+.contacttext {
+  font-size: 20px;
+}
+
+.maru{
+  width: 8%;
+  height: width;
+  z-index : 1;
+  position: absolute;
+  left: 10%;
+  z-index: -1;
 }
 .self{
   display: none;
 }
-}*/
+.topic1{
+  margin-top:15px;
+  font-size:40px;
+  color: rgb(95,95,95);
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+}
+
+#about{
+  color: #00A99D;
+  text-align: left;
+  margin-left: 15%;
+  font-weight: bold;
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+  font-size: 30px;
+  padding-top: 40px;
+}
+#yu{
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+}
+}
 @media screen and (min-width: 1024px){
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
+  color: #5F5F5F;
+}
+
  .header-right{
   float:right;
 }
@@ -410,7 +528,6 @@ p.image img{
   text-align: left;
   margin-left: 15%;
   font-weight: bold;
-  font-family:  Yu Gothic;
   font-size: 30px;
   padding-top: 40px;
 }
@@ -470,8 +587,8 @@ div.border{
 }
 .faceImage{
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   margin-left: 250px;
 }
 .role{
@@ -480,11 +597,11 @@ div.border{
   margin-left: 500px;
 }
 .name{
-  font-family: Yu Gothic;
   font-size: 20px;
   color: rgb(95,95,95);
   text-align: left;
   margin-left: 500px;
+  font-family: "游ゴシック体", "YuGothic", sans-serif;
 }
 .englishname{
   font-family: Avenir;
@@ -565,3 +682,4 @@ div.border{
   top: 0px;
 }
 }
+
